@@ -41,7 +41,7 @@ attach(man)
 hist(sale.price.n) 
 detach(man)
 
-## keep only the actual sales
+## keep only the actual sales and plot it 
 
 man.sale <- man[man$sale.price.n!=0,]
 plot(man.sale$gross.sqft,man.sale$sale.price.n)
