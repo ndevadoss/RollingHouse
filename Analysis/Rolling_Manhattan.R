@@ -1,5 +1,4 @@
-# Author: Benjamin Reddy
-# Taken from pages 49-50 of O'Neil and Schutt
+# Taken from pages 49-50 of O'Neil and Schutt (Reference)
 #Modified by Nithya D , Thomas D , Juan
 
 library(plyr)
