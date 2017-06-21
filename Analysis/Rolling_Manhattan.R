@@ -1,5 +1,6 @@
 # Taken from pages 49-50 of O'Neil and Schutt (Reference)
 #Modified by Nithya D , Thomas D , Juan
+#Modified date: 6/21/2017
 
 library(plyr)
 
@@ -46,14 +47,14 @@ man.sale <- man[man$sale.price.n!=0,]
 plot(man.sale$gross.sqft,man.sale$sale.price.n)
 plot(log10(man.sale$gross.sqft),log10(man.sale$sale.price.n))
 
-## for now, let's look at 1-, 2-, and 3-family homes
+## for now, let's look at 1-, 2-, and 3-family homes and plot the sales per sqft
 man.homes <- man.sale[which(grepl("FAMILY",man.sale$building.class.category)),]
 dim(man.homes)
 plot(log10(man.homes$gross.sqft),log10(man.homes$sale.price.n))
 summary(man.homes[which(man.homes$sale.price.n<100000),])
 
 
-## remove outliers that seem like they weren't actual sales
+## remove outliers that seem like they weren't actual sales . This is part of the data cleaning process
 man.homes$outliers <- (log10(man.homes$sale.price.n) <=5) + 0
 man.homes <- man.homes[which(man.homes$outliers==0),]
 plot(log10(man.homes$gross.sqft),log10(man.homes$sale.price.n))
