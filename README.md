@@ -1,11 +1,12 @@
 ***
 # README
 ## Modified by Nithya D , Thomas D , Juan
-
-### Taken from pages 49-50 of O'Neil and Schutt
-
-#### Assignment 6 Date:6/15
+### Assignment 6 Due Date:6/22
 ***
+> The Rolling House Repository has two Directories, Data, Analysis, and a single Readme.md
+> * Inside the Data Directory there is various stages of the raw data in txt and csv
+> * Inside the Analysis Diretory there is a clean version of the data in two different forms
+>   +Analysis of plots from the clean data like the ones below plus more
 ---
 http://www1.nyc.gov/site/finance/taxes/property-rolling-sales-data.page
 
