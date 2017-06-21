@@ -1,21 +1,32 @@
 ***
 # README
-## Modified by Nithya D , Thomas D , Juan
+## Assignment Group: Nithya, Damarcus, Juan
 ### Assignment 6 Due Date:6/22
+--- 
+### Our Assignment:  Manhattan Rolling House Sales Data Analysis
+---
+
+Below is from the assignment document given by Dr. Mahesh Fernando. 
+
+Using the Rolling Data Sales website, download and examine another housing sales data set (not the one we will use in live session, which is linked here - Rolling Housing Sales for NYC).
+(http://www1.nyc.gov/site/finance/taxes/property-rolling-sales-data.page)
+
+> * Goal: Create an RStudio project for the analysis of this data set. Your file structure within the project should include the >following: 
+>   * A README file in the project root directory that includes an explanation of the purpose of the project and the other files
+>   * A data directory containing files to load in and clean up the data. The clean up should include finding out where there are >outliers or missing values, deciding how you will treat them, making sure values you think are numerical are being treated as such >(correct R class), etc.
+>   * An Analysis directory containing a file (or files) for exploratory data analysis on the clean data to visualize compare the square >footage and sales price for your neighborhood.
+
+> * Deliverable: A link to a repository on GitHub containing the above. 
 ***
+### File Organization
+---
 > The Rolling House Repository has two Directories, Data, Analysis, and a single Readme.md
 > * Inside the Data Directory there is various stages of the raw data in txt and csv
 > * Inside the Analysis Diretory there is a clean version of the data in two different forms
 > * Analysis of plots from the clean data like the ones below plus more
 > * Analysis was done in R
+> * This ReadMe contains an outline of the process, and analysis below
 ---
-http://www1.nyc.gov/site/finance/taxes/property-rolling-sales-data.page
-
-library(plyr)
-setwd("/testrepo/testrepo")
-
-
-***
 
  Check the data
 ```{r echo = TRUE}
