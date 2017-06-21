@@ -6,7 +6,8 @@
 > The Rolling House Repository has two Directories, Data, Analysis, and a single Readme.md
 > * Inside the Data Directory there is various stages of the raw data in txt and csv
 > * Inside the Analysis Diretory there is a clean version of the data in two different forms
->   +Analysis of plots from the clean data like the ones below plus more
+> * Analysis of plots from the clean data like the ones below plus more
+> * Analysis was done in R
 ---
 http://www1.nyc.gov/site/finance/taxes/property-rolling-sales-data.page
 
