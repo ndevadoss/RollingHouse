@@ -1,5 +1,6 @@
 # Author: Benjamin Reddy
 # Taken from pages 49-50 of O'Neil and Schutt
+# Modified by: Nithya, Damarcus, and Juan
 
 library(plyr)
 
