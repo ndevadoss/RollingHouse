@@ -5,7 +5,6 @@
 
 ### Our Assignment:  Manhattan Rolling House Sales Data Analysis
 ---
-
 Below is from the assignment document given by Dr. Mahesh Fernando. 
 
 Using the Rolling Data Sales website, download and examine another housing sales data set (not the one we will use in live session, which is linked here - Rolling Housing Sales for NYC).
